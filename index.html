@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Menu Details</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;700&display=swap"
+      rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <h1>Beach Brew</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="menu.html">Drinks</a></li>
+            <li><a href="empty-cart.html" id="cart">Cart</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div id="hero">
+        <img src="./assets/images/beach.jpg" alt="">
+      </div>
+
+      <div class="cta">
+        <h2>Beach Brew</h2>
+        <p>Sip, Relax and Enjoy the Waves</p>
+        <button class="add-to-cart" id="menu-button">drink menu</button>
+
+        <script>
+          document.getElementById("menu-button").onclick = function () {
+            location.href = "menu.html";
+          };
+
+          document.getElementById("cart").onclick = function () {
+            window.location.href = "empty-cart.html";
+          };
+        </script>
+      </div>
+    </main>
+  </body>
+</html>

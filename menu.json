@@ -1,0 +1,44 @@
+[
+  {
+    "id": 0,
+    "name": "Brewed Coffee",
+    "description": "Fresh brewed daily",
+    "price": "$1.50",
+    "customization": [
+      {
+        "name": "Milk",
+        "options": ["Whole Milk", "Skim Milk", "Soy Milk"]
+      }
+    ],
+    "image": "./assets/images/brewed-coffee.jpg"
+  },
+
+  {
+    "id": 1,
+    "name": "Cappuccino",
+    "description": "An Italian Classic",
+    "price": "$2.00",
+    "customization": [
+      {
+        "name": "Milk",
+        "options": ["Whole Milk", "Skim Milk", "Soy Milk"]
+      }
+    ],
+    "image": "./assets/images/cappuccino.jpg"
+  },
+
+  {
+    "id": 2,
+    "name": "Espresso",
+    "description": "Made with our finest beans",
+    "price": "$3.00",
+    "customization": [
+      {
+        "name": "Milk",
+        "options": ["Whole Milk", "Skim Milk", "Soy Milk"]
+      }
+    ],
+    "image": "./assets/images/espresso.jpeg"
+  }
+
+]
